@@ -116,3 +116,20 @@ nav h2 {
     float: left;
     width: 80%;
 }
+
+#value {
+    padding-top: 2.5rem;
+}
+
+#value h2 {
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+}
+
+#value p {
+    max-width: 100%;
+    font-weight: 200;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
