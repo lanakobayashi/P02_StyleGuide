@@ -36,6 +36,128 @@ h3 {
     text-transform: uppercase;
 }
 
+#landing-title {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#landing-title a {
+    text-decoration: none;
+}
+
+#landing-title a h1 {
+    color: #333;
+}
+
+#landing-title h1 {
+    line-height: 1rem;
+}
+
+#landing-title h3:before {
+    background: #333333;
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+}
+
+#landing-title h3 span {
+    background: #FFFFFF;
+    z-index: 1;
+    position: relative;
+    padding: 0 1rem;
+}
+
+#landing-title h3 {
+    text-align: center;
+}
+
+.wireframe-btn {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.styleguide-btn {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.citations-btn {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a.btn {
+    color: #333;
+    text-decoration: none;
+    background-color: #ffff66;
+    transition: 0.5s ease all;
+}
+
+a.btn:hover {
+    color: white;
+}
+
+a.btn:focus {
+    color: white;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+}
+
+.btn:hover {
+    background-color: #333333;
+    transition: 0.5s ease all;
+}
+
+#button-element a {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+a.btn2 {
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #333;
+    background-color: white;
+    transition: 0.5s ease all;
+}
+
+a.btn2:hover {
+    color: white;
+}
+
+a.btn2:focus {
+    color: white;
+}
+
+.btn2 {
+    display: inline-block;
+    text-align: center;
+    padding: 1rem 1.5rem;
+    position: relative;
+}
+
+.btn2:hover {
+    background-color: #333333;
+    transition: 0.5s ease all;
+}
+
 aside {
     height: 100vh;
     padding: 2rem;
@@ -48,7 +170,7 @@ aside {
 }
 
 nav a {
-    color: #333;
+    color: #333333;
     text-decoration: none;
     display: block;
     transition: color 0.5s ease-in-out;
@@ -65,25 +187,25 @@ nav a {
 
 @-webkit-keyframes slowskew {
     to {
-        -webkit-transform: skewX(-15deg);
+        -webkit-transform: skewX(-10deg);
     }
 }
 
 @-moz-keyframes slowskew {
     to {
-        -moz-transform: skewX(-15deg);
+        -moz-transform: skewX(-10deg);
     }
 }
 
 @-o-keyframes slowskew {
     to {
-        -o-transform: skewX(-15deg);
+        -o-transform: skewX(-10deg);
     }
 }
 
 @keyframes slowskew {
     to {
-        transform: skewX(-15deg);
+        transform: skewX(-10deg);
     }
 }
 
@@ -97,7 +219,7 @@ nav h2 {
 
 .foundation,
 .ui,
-.other {
+.citations {
     padding-top: 2rem;
 }
 
@@ -132,4 +254,269 @@ nav h2 {
     font-weight: 200;
     font-size: 1rem;
     padding-bottom: 1rem;
+}
+
+#interactive-elements h2 {
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-top: 2rem;
+}
+
+#interactive-elements h3 {
+    padding-top: 1rem;
+}
+
+.section-header {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-top: 1px solid #333;
+}
+
+.section-element {
+    border-top: 1px solid #333;
+    padding-bottom: 1.5rem;
+}
+
+
+
+code {
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 0.75rem;
+    background-color: #fffde5;
+    display: block;
+}
+
+
+.in-text-link {
+    text-decoration: none;
+    color: #666666;
+    font-weight: 800;
+    font-size: 1em;
+}
+
+.in-text-link:hover {
+    color: #AAAAAA;
+    transition: color 0.5s ease-in-out;
+    text-decoration: line-through;
+}
+
+.nav-btn a {
+    color: #333333;
+    text-decoration: none;
+    display: block;
+    transition: color 0.5s ease-in-out;
+    font-weight: 100;
+    text-transform: lowercase;
+}
+
+.nav-btn a:hover {
+    color: #AAAAAA;
+    -webkit-animation: slowskew 0.5s infinite alternate;
+    -moz-animation: slowskew 0.5s infinite alternate;
+    -o-animation: slowskew 0.5s infinite alternate;
+    animation: slowskew 0.5s infinite alternate;
+}
+
+label {
+    font-size: 0.9em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+input {
+    width: 50%;
+}
+
+#text-styling h2 {
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-top: 2rem;
+}
+
+#text-styling h3 {
+    padding-top: 1rem;
+}
+
+#paragraph-style {
+    max-width: 45rem;
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+#combined-elements h2 {
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-top: 2rem;
+}
+
+#combined-elements h3 {
+    padding-top: 1rem;
+}
+
+#nav-style {
+    width: 16rem;
+    text-align: right;
+}
+
+.code-space {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+}
+
+.box {
+    display: inline-block;
+}
+
+#product-element a {
+    text-decoration: none;
+    color: #333;
+}
+
+.product-box {
+    display: block;
+    width: 500px;
+    height: 500px;
+    background: #FFFF66;
+}
+
+.product-box:hover {
+    background: #333333;
+    transition: 0.5s ease all;
+    cursor: pointer;
+}
+
+#product-element a:hover {
+    color: #FFFDE5;
+    transition: 0.5s ease all;
+}
+
+.product-text p {
+    text-align: right;
+    padding-right: 2rem;
+}
+
+.product-name p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+
+.product-price p {
+    font-size: 0.75rem;
+    font-weight: 200;
+    padding-top: 5rem;
+}
+
+.grid-container {
+    display: flex;
+    ;
+    padding-bottom: 1rem;
+}
+
+.grid-container p {
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.grid-col-1of5 {
+    width: 20%;
+    margin-right: 0.5rem;
+    background: #FFFF66;
+    height: 200px;
+}
+
+.grid-col-2of5 {
+    width: 40%;
+    margin-left: 0.5rem;
+    background: #FFFF66;
+    height: 200px;
+}
+
+.grid-col-3of5 {
+    width: 60%;
+    margin-right: 0.5rem;
+    background: #FFFF66;
+    height: 200px;
+
+}
+
+.grid-col-4of5 {
+    width: 80%;
+    margin-left: 0.5rem;
+    background: #FFFF66;
+    height: 200px;
+
+}
+
+.box p {
+    text-align: center;
+}
+
+
+#white-box {
+    width: 200px;
+    height: 200px;
+    background: #FFFFFF;
+    border: solid 1px #000;
+}
+
+#lightyellow-box {
+    width: 200px;
+    height: 200px;
+    background: #FFFDE5;
+}
+
+#yellow-box {
+    width: 200px;
+    height: 200px;
+    background: #FFFF66;
+}
+
+#grey-box {
+    width: 200px;
+    height: 200px;
+    background: #AAAAAA;
+}
+
+#grey-box p {
+    color: white;
+}
+
+#black-box {
+    width: 200px;
+    height: 200px;
+    background: #333333;
+}
+
+#black-box p {
+    color: white;
+}
+
+#citations {
+    padding-top: 2.5rem;
+}
+
+#citations a {
+    text-decoration: none;
+    color: #666666;
+    font-weight: 800;
+    font-size: 1em;
+}
+
+#citations a:hover {
+    color: #AAAAAA;
+    transition: color 0.5s ease-in-out;
+    text-decoration: line-through;
+}
+
+@media (max-width: 44rem) {
+    .product-box {
+        width: 100%;
+    }
 }
