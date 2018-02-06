@@ -77,6 +77,29 @@ h3 {
     text-align: center;
 }
 
+.landing-box {
+    /*border rectangle on landing page*/
+    border: 1px solid black;
+    width: 100%;
+    height: 55.5em;
+}
+
+.landing-box h1 {
+    text-align: center;
+    position: relative;
+    top: 46%;
+    text-decoration: line-through;
+}
+
+.landing-box h2 {
+    text-align: center;
+    position: relative;
+    top: 48%;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+
+
 .wireframe-btn {
     min-height: 10vh;
     display: flex;
@@ -279,7 +302,8 @@ nav h2 {
 }
 
 .code-container {
-    background-color: #fffde5;
+    border: solid 1px black;
+    background-color: #ffffff;
 }
 
 
@@ -455,34 +479,30 @@ input {
 
 .grid-col-12of12 {
     width: 100%;
-    background: #FFFF66;
+    background: #FFFDE5;
     height: 200px;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    border: 1px solid black;
 }
 
 .grid-col-6of12 {
     width: 50%;
-    background: #FFFF66;
+    background: #FFFDE5;
     height: 200px;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    border: 1px solid black;
 }
 
 .grid-col-4of12 {
     width: 33.3333333%;
-    background: #FFFF66;
+    background: #FFFDE5;
     height: 200px;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    border: 1px solid black;
 }
 
 .grid-col-3of12 {
     width: 25%;
-    background: #FFFF66;
+    background: #FFFDE5;
     height: 200px;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    border: 1px solid black;
 }
 
 .box p {
