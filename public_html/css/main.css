@@ -408,7 +408,6 @@ input {
     display: block;
     width: 500px;
     height: 500px;
-    background: #FFFF66;
 }
 
 .product-box:hover {
@@ -446,13 +445,14 @@ input {
     font-size: 1.5rem;
     font-weight: 700;
     padding-top: 2rem;
-    padding-bottom: 10rem;
 }
 
 .product-price p {
     font-size: 0.75rem;
     font-weight: 200;
-    padding-top: 20rem;
+    position: absolute;
+    right: 1rem;
+    top: 24rem;
 }
 
 .product-image img {
