@@ -380,6 +380,7 @@ input {
 }
 
 .product-box {
+    position: relative;
     display: block;
     width: 500px;
     height: 500px;
@@ -397,7 +398,22 @@ input {
     transition: 0.5s ease all;
 }
 
+#product-element a {
+    color: transparent;
+}
+
 .product-text p {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    text-align: right;
+    padding-right: 2rem;
+}
+
+.product-text p:hover {
+    position: absolute;
+    top: 8px;
+    right: 16px;
     text-align: right;
     padding-right: 2rem;
 }
@@ -405,14 +421,23 @@ input {
 .product-name p {
     font-size: 1.5rem;
     font-weight: 700;
-    padding-top: 5rem;
+    padding-top: 2rem;
     padding-bottom: 10rem;
 }
 
 .product-price p {
     font-size: 0.75rem;
     font-weight: 200;
-    padding-top: 5rem;
+    padding-top: 20rem;
+}
+
+.product-image img{
+    width: 500px;
+}
+
+.product-image:hover{
+    transition: 0.5s ease all;
+    filter: brightness(50%);
 }
 
 .grid-container {
