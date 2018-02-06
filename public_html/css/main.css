@@ -77,6 +77,28 @@ h3 {
     text-align: center;
 }
 
+.landing-box { /*border rectangle on landing page*/
+    border: 1px solid black;
+    width: 100%;
+    height: 54em;
+}
+
+.landing-box h1 {
+    text-align: center;
+    position: relative;
+    top:46%;
+    text-decoration: line-through;
+}
+
+.landing-box h2 {
+    text-align: center;
+    position: relative;
+    top:48%;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+
+
 .wireframe-btn {
     min-height: 10vh;
     display: flex;
@@ -288,7 +310,7 @@ code {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     font-size: 0.75rem;
-/*    background-color: #fffde5;*/
+    /*    background-color: #fffde5;*/
     display: block;
 }
 
@@ -431,11 +453,11 @@ input {
     padding-top: 20rem;
 }
 
-.product-image img{
+.product-image img {
     width: 500px;
 }
 
-.product-image:hover{
+.product-image:hover {
     transition: 0.5s ease all;
     filter: brightness(50%);
 }
@@ -453,34 +475,36 @@ input {
     padding-top: 3rem;
 }
 
-.grid-col-1of5 {
-    width: 20%;
-    margin-right: 0.5rem;
+.grid-col-12of12 {
+    width: 100%;
     background: #FFFF66;
     height: 200px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
 
-.grid-col-2of5 {
-    width: 40%;
-    margin-left: 0.5rem;
+.grid-col-6of12 {
+    width: 50%;
     background: #FFFF66;
     height: 200px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
 
-.grid-col-3of5 {
-    width: 60%;
-    margin-right: 0.5rem;
+.grid-col-4of12 {
+    width: 33.3333333%;
     background: #FFFF66;
     height: 200px;
-
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
 
-.grid-col-4of5 {
-    width: 80%;
-    margin-left: 0.5rem;
+.grid-col-3of12 {
+    width: 25%;
     background: #FFFF66;
     height: 200px;
-
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
 
 .box p {
